@@ -1,0 +1,136 @@
+@import url(../fonts/font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header{
+    background-color: #d2e7f6;
+}
+
+a {
+    font-family: 'Ral', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    width: 1800px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+/*nav*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.requisites, .requisites a{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Gol', sans-serif;
+    color: #01588B;
+    font-size: 1.25rem;
+}
+
+.num, .em{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.num img{
+    width: 20px;
+    height: 21px;
+}
+
+.em img{
+    width: 25px;
+    height: 21px;
+}
+
+.nav-sait, .nav-sait a{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #01588B;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 6px 19px;
+    border: 1px solid #01588B;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #d2e7f6;
+    transition: 0.3s;
+}
+
+/*main*/
+
+.main-head{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-head h1{
+    font-family: 'Gol', sans-serif;
+    color: #01588B;
+    font-size: 4.188rem;
+    font-weight: 700;
+}
+
+.main-head h2{
+    font-family: 'Gol', sans-serif;
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-head .requisites{
+    display: flex;
+    align-items: start;
+    font-family: 'Ral', sans-serif;
+    font-size: 1.875rem;
+
+}
+
+/*.block{*/
+/*    */
+/*}*/
+
+.main-head .num{
+    margin-bottom: 22px;
+    gap: 15px;
+}
+
+.main-head .num img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Gol', sans-serif;
+    src: url(Golos-Text_Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gol', sans-serif;
+    src: url(Golos-Text_Medium.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gol', sans-serif;
+    src: url(Golos-Text_Bold.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ral', sans-serif;
+    src: url(Raleway-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ral', sans-serif;
+    src: url(Raleway-SemiBold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ral', sans-serif;
+    src: url(Raleway-Bold.ttf);
+    font-weight: 900;
+    font-style: normal;
+}

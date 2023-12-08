@@ -13,10 +13,6 @@ body {
     background-color: #d2e7f6;
 }
 
-header{
-    background-color: #d2e7f6;
-}
-
 a {
     font-family: 'Ral', sans-serif;
     text-decoration: none;
@@ -48,7 +44,7 @@ nav{
     gap: 25px;
     font-family: 'Gol', sans-serif;
     color: #01588B;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 
 .num, .em{
@@ -75,6 +71,7 @@ nav{
 }
 
 .nav-sait a{
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
     color: #01588B;
 }
 
@@ -233,4 +230,137 @@ input{
 
 /*about*/
 
+section{
+    background-color: white;
+    margin-bottom: 100px;
+}
 
+.about_us{
+    display: flex;
+}
+
+.head-opis{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 85px;
+    gap: 33px;
+}
+
+.head-opis h1{
+    font-family: 'Gol', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #01588B;
+
+}
+
+.head-opis p{
+    font-family: 'Ral', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: black;
+}
+
+.bold_blue{
+    font-weight: 700;
+    color: #01588B;
+}
+
+.about_us .button_blue{
+    display: flex;
+    width: 310px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, #0C547E 0%, #0F79B6 48.44%, #119BEB 100%);
+}
+
+.about_us a{
+    font-family: 'Ral', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.photo{
+    padding: 18px 18px 18px 0;
+}
+
+.photo img{
+    width: 944px;
+    height: 1042px;
+    border-radius: 12px;
+}
+
+/*work*/
+
+.work{
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+    margin-bottom: 100px;
+}
+
+.head_center{
+    text-align: center;
+}
+
+.head_center h1{
+    font-family: 'Gol', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #01588B;
+}
+
+.point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /*margin-bottom: 30px;*/
+}
+
+.circle_sky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #a5cbe0;
+}
+
+.circle_blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: #01588B;
+}
+
+.step{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step h1{
+    font-family: 'Ral', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.step p{
+    width: 1680px;
+    font-size: 2.188rem;
+    font-family: 'Ral', sans-serif;
+    font-weight: 400;
+}
+
+/*galery*/

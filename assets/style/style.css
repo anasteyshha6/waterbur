@@ -397,10 +397,50 @@ section {
     padding-bottom: 50px;
 }
 
-.slideshow {
-    width: 1800px;
-    height: 748px;
-}
+/*.slider {*/
+/*    width: 1800px;*/
+/*    height: 748px;*/
+/*    overflow: hidden;*/
+/*    border-radius: 12px;*/
+/*}*/
+
+/*.slider_block {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+
+/*.switch {*/
+/*    position: absolute;*/
+/*    bottom: 16px;*/
+/*    left: 50px;*/
+/*    transform: translate(-50%);*/
+/*    display: flex;*/
+/*}*/
+
+/*.bar {*/
+/*    height: 8px;*/
+/*    width: 30px;*/
+/*    margin: 6px;*/
+/*    cursor: pointer;*/
+/*    background-color: white;*/
+/*    opacity: .7;*/
+/*    border-radius: 50px;*/
+/*    transition: all .4s ease;*/
+/*}*/
+
+/*.bar:hover {*/
+/*    opacity: 0.8;*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*input [name="r"] {*/
+/*    position: absolute;*/
+/*    visibility: hidden;*/
+/*}*/
+
+
 
 /*question*/
 

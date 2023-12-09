@@ -1,6 +1,6 @@
 @import url(../fonts/font.css);
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-.container{
+.container {
     width: 1800px;
     margin: 0 auto;
 }
@@ -37,20 +37,20 @@ a {
 
 /*nav*/
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.requisites, .requisites a{
+.requisites, .requisites a {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -59,77 +59,77 @@ nav{
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 
-.num, .em, .map, .con{
+.num, .em, .map, .con {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.num img{
+.num img {
     width: 20px;
     height: 21px;
 }
 
-.em img{
+.em img {
     width: 25px;
     height: 21px;
 }
 
-.nav-sait{
+.nav-sait {
     display: flex;
     align-items: center;
     gap: 25px;
 
 }
 
-.nav-sait a{
+.nav-sait a {
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
     color: #01588B;
 }
 
-.button{
+.button {
     border-radius: 12px;
     padding: 6px 19px;
     border: 1px solid #01588B;
     transition: 0.3s;
 }
 
-.button:hover{
+.button:hover {
     background-color: #d2e7f6;
     transition: 0.3s;
 }
 
 /*main*/
 
-main{
+main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 100px 0;
 }
 
-.main-head{
+.main-head {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.main-head h1{
+.main-head h1 {
     font-family: 'Gol', sans-serif;
     color: #01588B;
     font-size: 4.188rem;
     font-weight: 700;
 }
 
-.main-head h2{
+.main-head h2 {
     font-family: 'Gol', sans-serif;
     color: #000000;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.main-head .requisites{
+.main-head .requisites {
     display: flex;
     align-items: start;
     font-family: 'Ral', sans-serif;
@@ -137,17 +137,17 @@ main{
 
 }
 
-.main-head .num{
+.main-head .num {
     margin-bottom: 22px;
     gap: 15px;
 }
 
-.main-head .num img{
+.main-head .num img {
     width: 40px;
     height: 40px;
 }
 
-.application{
+.application {
     width: 648px;
     display: flex;
     padding: 68px;
@@ -159,7 +159,7 @@ main{
 
 }
 
-.application h1{
+.application h1 {
     text-align: center;
     font-family: 'Gol', sans-serif;
     font-weight: 700;
@@ -168,23 +168,23 @@ main{
     padding-bottom: 27px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     font-family: 'Ral', sans-serif;
 }
 
-label{
+label {
     color: white;
     font-size: 1.563rem;
     padding: 12px 0;
 }
 
-input{
+input {
     color: white;
 }
 
-.str{
+.str {
     font-size: 1.25rem;
     color: white;
     width: 512px;
@@ -196,20 +196,20 @@ input{
     transition: 0.3s;
 }
 
-.str:hover{
+.str:hover {
     background-color: #d2e7f6;
     color: black;
     transition: 0.3s;
 }
 
-.application a{
+.application a {
     font-family: 'Ral', sans-serif;
     font-weight: 400;
     color: white;
     font-size: 1.5rem;
 }
 
-.button_blue{
+.button_blue {
     border-radius: 12px;
     padding: 15px 50px;
     background: linear-gradient(90deg, #0090E5 0%, #6BC9FF 100%, #00A1FE 100%);
@@ -217,18 +217,18 @@ input{
     transition: 0.3s;
 }
 
-.button_blue:hover{
+.button_blue:hover {
     background: linear-gradient(90deg, #0b517a 0%, #1370A5 46.25%, #1084bd 100%);
     transition: 0.3s;
 }
 
-.agree{
+.agree {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.agree p{
+.agree p {
     font-family: 'Ral', sans-serif;
     font-weight: 400;
     color: white;
@@ -236,25 +236,25 @@ input{
     padding-bottom: 27px;
 }
 
-.link{
+.link {
     text-decoration: underline;
 }
 
 /*about*/
 
-section{
+section {
     background-color: white;
     margin-bottom: 100px;
 }
 
-.about_us{
+.about_us {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
 }
 
-.head-opis{
-    width: 55%;
+.head-opis {
+    width: 720px;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -263,7 +263,7 @@ section{
     gap: 33px;
 }
 
-.head-opis h1{
+.head-opis h1 {
     font-family: 'Gol', sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
@@ -271,19 +271,19 @@ section{
 
 }
 
-.head-opis p{
+.head-opis p {
     font-family: 'Ral', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     color: black;
 }
 
-.bold_blue{
+.bold_blue {
     font-weight: 700;
     color: #01588B;
 }
 
-.about_us .button_blue{
+.about_us .button_blue {
     display: flex;
     width: 310px;
     height: 62px;
@@ -293,43 +293,44 @@ section{
     background: linear-gradient(90deg, #0C547E 0%, #0F79B6 48.44%, #119BEB 100%);
 }
 
-.about_us a{
+.about_us a {
     font-family: 'Ral', sans-serif;
     font-weight: 400;
     color: white;
     font-size: 1.5rem;
 }
 
-.photo{
-    padding: 18px 18px 18px 0;
-}
+/*.photo {*/
+/*    padding: 18px 18px 18px 0;*/
+/*}*/
 
-.photo img{
-    width: 611px;
+.photo img {
+    /*width: 648px;*/
+    /*height: 779px;*/
     border-radius: 12px;
 }
 
 /*work*/
 
-.work{
+.work {
     display: flex;
     flex-direction: column;
     gap: 83px;
     margin-bottom: 100px;
 }
 
-.head_center{
+.head_center {
     text-align: center;
 }
 
-.head_center h1{
+.head_center h1 {
     font-family: 'Gol', sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
     color: #01588B;
 }
 
-.point{
+.point {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,7 +338,7 @@ section{
     /*margin-bottom: 30px;*/
 }
 
-.circle_sky{
+.circle_sky {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -347,7 +348,7 @@ section{
     background-color: #a5cbe0;
 }
 
-.circle_blue{
+.circle_blue {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,20 +358,20 @@ section{
     background-color: #01588B;
 }
 
-.step{
+.step {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
 }
 
-.step h1{
+.step h1 {
     font-family: 'Ral', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
 }
 
-.step p{
+.step p {
     width: 1680px;
     font-size: 2.188rem;
     font-family: 'Ral', sans-serif;
@@ -379,24 +380,31 @@ section{
 
 /*galery*/
 
-.gallery{
+.gallery {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
 }
 
-.gallery .head_center{
+.gallery .head_center {
     padding-bottom: 50px;
 }
 
-.gallery .head-opis p{
+.gallery .head-opis p {
     text-align: center;
     font-size: 2.188rem;
     padding-bottom: 50px;
 }
 
-.question{
+.slideshow {
+    width: 1800px;
+    height: 748px;
+}
+
+/*question*/
+
+.question {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -405,17 +413,17 @@ section{
 
 }
 
-.question h1{
+.question h1 {
     color: white;
     font-size: 2.5rem;
     padding-bottom: 75px;
 }
 
-.question .button_blue{
+.question .button_blue {
     padding: 20px 60px;
 }
 
-.question a{
+.question a {
     color: white;
     font-size: 2.5rem;
 }
@@ -423,59 +431,73 @@ section{
 /*contacts*/
 
 
-.contacts{
+.contacts {
     display: flex;
     /*flex-direction: column;*/
     gap: 50px;
 
 }
 
-.block{
+.block {
+    width: 900px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
-.block h1{
+.block h1 {
     padding-bottom: 50px;
 }
-.contacts .requisites{
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts .requisites {
     flex-direction: column;
     align-items: start;
     gap: 45px;
 }
 
-.contacts .requisites p{
+.contacts .requisites p {
     font-family: 'Gol', sans-serif;
     color: #01588B;
     font-size: 2.5rem;
     font-weight: 400;
 }
 
-.contacts .num img{
+.contacts .num img {
     width: 45px;
     height: 49px;
 }
 
-.contacts .map img{
+.contacts .map img {
     width: 42px;
     height: 60px;
 }
 
-.contacts .em img{
+.contacts .em img {
     width: 53px;
     height: 41px;
 }
 
-.contacts .con p{
+.contacts .con p {
     font-weight: 700;
 }
 
-.contacts .con img{
+.contacts .con img {
     width: 50px;
     height: 52px;
 }
 
-.big_map{
-    width: 611px;
-    height: 674px;
+.big_map {
+    width: 900px;
+    /*height: 674px;*/
+}
+
+iframe {
+    width: 900px;
+    height: 1042px;
+    border-radius: 12px;
 }

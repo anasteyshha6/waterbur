@@ -435,7 +435,7 @@ input {
 
 .switch {
     position: absolute;
-    bottom: 16px;
+    bottom: 116px;
     left: 50%;
     transform: translate(-50%);
     display: flex;

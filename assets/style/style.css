@@ -61,12 +61,12 @@ nav {
 }
 
 .num img {
-    max-width: 20px;
+    width: 20px;
     height: 21px;
 }
 
 .em img {
-    max-width: 25px;
+    width: 25px;
     height: 21px;
 }
 
@@ -83,7 +83,6 @@ nav {
 }
 
 .button {
-    max-width: 176px;
     border-radius: 12px;
     padding: 6px 19px;
     border: 1px solid #01588B;
@@ -184,7 +183,7 @@ input {
 .str {
     font-size: 1.25rem;
     color: white;
-    max-width: 512px;
+    width: 512px;
     height: 64px;
     border-radius: 12px;
     border: 2px solid white;
@@ -207,7 +206,7 @@ input {
 }
 
 .butt {
-    max-width: 322px;
+    width: 322px;
     height: 72px;
     display: flex;
     justify-content: center;
@@ -296,6 +295,10 @@ input {
     color: white;
     font-size: 1.5rem;
 }
+
+/*.photo {*/
+/*    padding: 18px 18px 18px 0;*/
+/*}*/
 
 .photo img {
     /*width: 648px;*/

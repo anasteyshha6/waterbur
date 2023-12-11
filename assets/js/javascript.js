@@ -14,7 +14,7 @@ controls.forEach((e) => {
             let index = imgIndex - 1;
 
             if (index < 0) {
-                index = imgIndex.length - 1;
+                index = images.length - 1;
             }
             show(index);
         } else if (event.target.classList.contains('next')) {

@@ -64,7 +64,6 @@ nav {
 
 .num, .em, .map, .con {
     display: flex;
-    align-items: center;
     gap: 15px;
 }
 
@@ -152,7 +151,7 @@ nav {
 .main_head h1 {
     font-family: 'Gol', sans-serif;
     color: #01588B;
-    font-size: clamp(1.5rem, 1rem + 2.5vw, 4rem);
+    font-size: clamp(1.5rem, 1rem + 2.5vw, 3.5rem);
     font-weight: 700;
 }
 
@@ -244,7 +243,7 @@ input {
 }
 
 .butt {
-    width: 284px;
+    width: 206px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -315,6 +314,10 @@ input {
 .bold_blue {
     font-weight: 700;
     color: #01588B;
+}
+
+.about_us .butt {
+    width: 304px;
 }
 
 .about_us a {
@@ -424,6 +427,7 @@ input {
 
 .gallery .head-opis {
     width: 100%;
+    align-items: center;
 }
 
 .gallery .head-opis p {
@@ -432,7 +436,6 @@ input {
 }
 
 .slider {
-    width: 100%;
     height: 900px;
     position: relative;
     overflow: hidden;
@@ -441,7 +444,6 @@ input {
 
 .slider-img {
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -485,12 +487,12 @@ input {
 }
 
 .question .butt {
-    padding: 42px 60px;
+    padding: 24px 60px;
 }
 
 .question a {
     color: white;
-    font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
+    font-size: clamp(1rem, 0.92rem + 0.4vw, 1.4rem);
 }
 
 /*contacts*/
@@ -504,6 +506,7 @@ input {
 }
 
 .block {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -614,6 +617,58 @@ footer p, a {
     padding-top: 40px;
 }
 
+.slider {
+    height: clamp(11.875rem, 2.768rem + 45.54vw, 43.75rem);
+}
+
+.main_head h2 {
+    font-size: clamp(1.6rem, 1.486rem + 0.57vw, 2rem);
+}
+
+.main_head .requisites {
+    font-size: clamp(1.2rem, 1.143rem + 0.29vw, 1.4rem);
+}
+
+.application h1 {
+    font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
+}
+
+label {
+    font-size: 1rem;
+}
+
+.application a {
+    font-size: clamp(1rem, 0.886rem + 0.57vw, 1.4rem);
+}
+
+.head-opis h1 {
+    font-size: clamp(1.5rem, 1.214rem + 1.43vw, 2.5rem);
+}
+
+.head-opis p {
+    font-size: clamp(1.25rem, 1.207rem + 0.21vw, 1.4rem);
+}
+
+.head_center h1 {
+    font-size: clamp(1.5rem, 1.357rem + 0.71vw, 2rem);
+}
+
+.step h1 {
+    font-size: clamp(1.25rem, 1.121rem + 0.64vw, 1.7rem);
+}
+
+.step p {
+    font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
+}
+
+.point {
+    justify-content: start;
+}
+
+.contacts .requisites p, .contacts .requisites a {
+    font-size: clamp(1rem, 0.886rem + 0.57vw, 1.4rem);
+}
+
 @media screen and (max-width: 1440px) {
     .container {
         width: 1300px;
@@ -629,58 +684,6 @@ footer p, a {
 
     .head-opis {
         width: 47%;
-    }
-
-    .slider {
-        height: clamp(11.875rem, 2.768rem + 45.54vw, 43.75rem);
-    }
-
-    .main_head h2 {
-        font-size: clamp(1.6rem, 1.486rem + 0.57vw, 2rem);
-    }
-
-    .main_head .requisites {
-        font-size: clamp(1.2rem, 1.143rem + 0.29vw, 1.4rem);
-    }
-
-    .application h1 {
-        font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
-    }
-
-    label {
-        font-size: 1rem;
-    }
-
-    .application a {
-        font-size: clamp(1rem, 0.886rem + 0.57vw, 1.4rem);
-    }
-
-    .head-opis h1 {
-        font-size: clamp(1.5rem, 1.214rem + 1.43vw, 2.5rem);
-    }
-
-    .head-opis p {
-        font-size: clamp(1.25rem, 1.207rem + 0.21vw, 1.4rem);
-    }
-
-    .head_center h1 {
-        font-size: clamp(1.5rem, 1.357rem + 0.71vw, 2rem);
-    }
-
-    .step h1 {
-        font-size: clamp(1.25rem, 1.121rem + 0.64vw, 1.7rem);
-    }
-
-    .step p {
-        font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
-    }
-
-    .point {
-        justify-content: start;
-    }
-
-    .contacts .requisites p, .contacts .requisites a {
-        font-size: clamp(1rem, 0.886rem + 0.57vw, 1.4rem);
     }
 }
 

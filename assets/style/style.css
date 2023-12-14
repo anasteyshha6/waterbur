@@ -49,7 +49,7 @@ nav {
 
 .requisites, .requisites a {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 25px;
     font-family: 'Gol', sans-serif;
     color: #01588B;
@@ -62,9 +62,10 @@ nav {
     transition: 0.3s;
 }
 
-.num, .em, .map, .con {
+.requisites .num, .requisites .em, .requisites .map, .requisites .con {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 .num img {
@@ -176,8 +177,8 @@ nav {
 }
 
 .main_head .num img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .application {
@@ -511,7 +512,7 @@ input {
 }
 
 .block {
-    width: 50%;
+    /*width: 50%;*/
     display: flex;
     justify-content: center;
     align-items: start;
@@ -523,8 +524,6 @@ input {
 }
 
 .contacts .requisites {
-    flex-direction: column;
-    align-items: start;
     gap: 45px;
 }
 
@@ -540,32 +539,8 @@ input {
     font-weight: 400;
 }
 
-.contacts .num img {
-    width: clamp(1.25rem, 0.938rem + 1.56vw, 2.813rem);
-    height: clamp(1.25rem, 0.888rem + 1.81vw, 3.063rem);
-}
-
-.contacts .map img {
-    width: clamp(1.25rem, 0.975rem + 1.38vw, 2.625rem);
-    /*height: 60px;*/
-}
-
-.contacts .em img {
-    width: clamp(1.563rem, 1.25rem + 1.56vw, 3.125rem);
-    height: clamp(1.25rem, 0.988rem + 1.31vw, 2.563rem);
-}
-
-.contacts .requisites .con img {
-    width: clamp(1.563rem, 1.25rem + 1.56vw, 3.125rem);
-}
-
 .contacts .con p {
     font-weight: 700;
-}
-
-.contacts .con img {
-    width: 50px;
-    /*height: 52px;*/
 }
 
 .big_map {

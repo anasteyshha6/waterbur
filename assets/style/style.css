@@ -26,7 +26,7 @@ header, main {
 }
 
 .container {
-    width: 1500px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -151,14 +151,14 @@ nav {
 .main_head h1 {
     font-family: 'Gol', sans-serif;
     color: #01588B;
-    font-size: clamp(1.5rem, 1rem + 2.5vw, 3.5rem);
+    font-size: clamp(1.5rem, 1.2rem + 1.5vw, 3rem);
     font-weight: 700;
 }
 
 .main_head h2 {
     font-family: 'Gol', sans-serif;
     color: #000000;
-    font-size: clamp(1.6rem, 1.32rem + 1.4vw, 3rem);
+    font-size: clamp(1.5rem, 1.48rem + 0.1vw, 1.6rem);
     font-weight: 700;
 }
 
@@ -166,7 +166,7 @@ nav {
     display: flex;
     align-items: start;
     font-family: 'Ral', sans-serif;
-    font-size: clamp(1.2rem, 1.065rem + 0.68vw, 1.875rem);
+    font-size: clamp(1.2rem, 1.16rem + 0.2vw, 1.4rem);
 
 }
 
@@ -181,9 +181,9 @@ nav {
 }
 
 .application {
-    width: 648px;
+    width: 500px;
     display: flex;
-    padding: 68px;
+    padding: 45px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -197,7 +197,7 @@ nav {
     font-family: 'Gol', sans-serif;
     font-weight: 700;
     color: white;
-    font-size: clamp(1rem, 0.762rem + 1.19vw, 2.188rem);
+    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
     padding-bottom: 27px;
 }
 
@@ -209,7 +209,7 @@ form {
 
 label {
     color: white;
-    font-size: clamp(1rem, 0.887rem + 0.56vw, 1.563rem);
+    font-size: 1rem;
     padding: 12px 0;
 }
 
@@ -220,12 +220,11 @@ input {
 .str {
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
     color: white;
-    width: 512px;
-    height: 64px;
+    width: 440px;
+    padding: 15px;
     border-radius: 12px;
     border: 2px solid white;
     background-color: #01588B;
-    padding-left: 24px;
     transition: 0.3s;
 }
 
@@ -239,7 +238,7 @@ input {
     font-family: 'Ral', sans-serif;
     font-weight: 400;
     color: white;
-    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+    font-size: clamp(1rem, 0.92rem + 0.4vw, 1.4rem);
 }
 
 .butt {
@@ -287,7 +286,7 @@ input {
 }
 
 .head-opis {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -298,7 +297,7 @@ input {
 
 .head-opis h1 {
     font-family: 'Gol', sans-serif;
-    font-size: clamp(1.5rem, 1.1rem + 2vw, 3.5rem);
+    font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
     font-weight: 700;
     color: #01588B;
 
@@ -306,7 +305,7 @@ input {
 
 .head-opis p {
     font-family: 'Ral', sans-serif;
-    font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem);
+    font-size: clamp(1.25rem, 1.22rem + 0.15vw, 1.4rem);
     font-weight: 400;
     color: black;
 }
@@ -344,11 +343,12 @@ input {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 83px;
-    padding: 100px 0;
+    gap: 45px;
+    padding: 50px 0;
 }
 
 .head_center {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,15 +358,15 @@ input {
 
 .head_center h1 {
     font-family: 'Gol', sans-serif;
-    font-size: clamp(1.5rem, 1.1rem + 2vw, 3.5rem);
+    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
     font-weight: 700;
     color: #01588B;
 }
 
 .point {
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     gap: 30px;
     /*margin-bottom: 30px;*/
@@ -376,8 +376,8 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     background-color: #a5cbe0;
 }
@@ -386,8 +386,8 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 42px;
-    height: 42px;
+    width: 23px;
+    height: 23px;
     border-radius: 50px;
     background-color: #01588B;
 }
@@ -402,11 +402,11 @@ input {
 .step h1 {
     font-family: 'Ral', sans-serif;
     font-weight: 700;
-    font-size: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);
+    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
 }
 
 .step p {
-    font-size: clamp(1rem, 0.762rem + 1.19vw, 2.188rem);
+    font-size: clamp(1rem, 0.975rem + 0.13vw, 1.125rem);
     font-family: 'Ral', sans-serif;
     font-weight: 400;
 }
@@ -426,8 +426,9 @@ input {
 }
 
 .gallery .head-opis {
-    width: 100%;
+
     align-items: center;
+    padding-right: 0;
 }
 
 .gallery .head-opis p {
@@ -436,7 +437,7 @@ input {
 }
 
 .slider {
-    height: 900px;
+    height: clamp(11.875rem, 5.5rem + 31.87vw, 43.75rem);
     position: relative;
     overflow: hidden;
     margin-bottom: 100px;
@@ -480,9 +481,13 @@ input {
 
 }
 
+/*.wave {*/
+/*    width: 100%;*/
+/*}*/
+
 .question h1 {
     color: white;
-    font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
+    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
     padding-bottom: 20px;
 }
 
@@ -531,7 +536,7 @@ input {
 .contacts .requisites p, .contacts .requisites a {
     font-family: 'Gol', sans-serif;
     color: #01588B;
-    font-size: clamp(1rem, 0.7rem + 1.5vw, 2.5rem);
+    font-size: clamp(1rem, 0.92rem + 0.4vw, 1.4rem);
     font-weight: 400;
 }
 
@@ -569,7 +574,7 @@ input {
 
 iframe {
     width: 100%;
-    height: 30vh;
+    height: 600px;
     border-radius: 12px;
 }
 
@@ -617,83 +622,47 @@ footer p, a {
     padding-top: 40px;
 }
 
-.slider {
-    height: clamp(11.875rem, 2.768rem + 45.54vw, 43.75rem);
-}
-
-.main_head h2 {
-    font-size: clamp(1.6rem, 1.486rem + 0.57vw, 2rem);
-}
-
-.main_head .requisites {
-    font-size: clamp(1.2rem, 1.143rem + 0.29vw, 1.4rem);
-}
-
-.application h1 {
-    font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
-}
-
-label {
-    font-size: 1rem;
-}
-
-.application a {
-    font-size: clamp(1rem, 0.886rem + 0.57vw, 1.4rem);
-}
-
-.head-opis h1 {
-    font-size: clamp(1.5rem, 1.214rem + 1.43vw, 2.5rem);
-}
-
-.head-opis p {
-    font-size: clamp(1.25rem, 1.207rem + 0.21vw, 1.4rem);
-}
-
-.head_center h1 {
-    font-size: clamp(1.5rem, 1.357rem + 0.71vw, 2rem);
-}
-
-.step h1 {
-    font-size: clamp(1.25rem, 1.121rem + 0.64vw, 1.7rem);
-}
-
-.step p {
-    font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
-}
-
-.point {
-    justify-content: start;
-}
-
-.contacts .requisites p, .contacts .requisites a {
-    font-size: clamp(1rem, 0.886rem + 0.57vw, 1.4rem);
-}
-
 @media screen and (max-width: 1440px) {
     .container {
-        width: 1300px;
+        width: 1000px;
     }
 
     nav {
-        width: clamp(18.75rem, -0.893rem + 98.21vw, 87.5rem);
+        width: 1400px;
     }
+
+    /*.main_head {*/
+    /*    padding-right: 100px;*/
+    /*}*/
 
     .application {
-        width: 550px;
+        width: 435px;
     }
 
-    .head-opis {
-        width: 47%;
+    .str {
+        width: 333px;
     }
+
+    .point {
+        width: 75%;
+    }
+
+    /*.head-opis {*/
+    /*    width: 47%;*/
+    /*}*/
 }
 
 @media (max-width: 1200px) {
     .container {
-        width: 1060px;
+        width: 580px;
     }
 
     nav {
         width: 1150px;
+    }
+
+    .main_head {
+        padding-right: 0;
     }
 
     .requisites, .requisites a {
@@ -748,9 +717,14 @@ label {
         width: 100%;
     }
 
-    /*.slider {*/
-    /*    height: 550px;*/
-    /*}*/
+    .wave {
+        display: none;
+    }
+
+    .question {
+        justify-content: center;
+        padding: 60px 0;
+    }
 
     .contacts {
         display: flex;
@@ -773,6 +747,10 @@ label {
 
     .nav-sait {
         flex-direction: column;
+    }
+
+    .photo {
+        width: 70%;
     }
 
 }
@@ -865,10 +843,10 @@ label {
         width: 300px;
     }
 
-    .main_head, .main_head h1 {
-        width: 290px;
-        font-size: 1.5rem;
-    }
+    /*.main_head, .main_head h1 {*/
+    /*    width: 290px;*/
+    /*    font-size: 1.5rem;*/
+    /*}*/
 
     .block {
         width: 290px;

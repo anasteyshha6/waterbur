@@ -597,13 +597,19 @@ footer p, a {
     padding-top: 40px;
 }
 
+@media screen and (max-width: 1800px) {
+    nav {
+        width: 1415px;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .container {
         width: 1000px;
     }
 
     nav {
-        width: 1400px;
+        width: 1250px;
     }
 
     nav .requisites {
@@ -721,7 +727,7 @@ footer p, a {
     }
 
     nav {
-        width: 800px;
+        width: 750px;
     }
 
     .nav-sait {

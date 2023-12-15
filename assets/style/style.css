@@ -628,13 +628,17 @@ footer p, a {
     /*}*/
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .container {
-        width: 580px;
+        width: 700px;
     }
 
     nav {
-        width: 1150px;
+        width: 900px;
+    }
+
+    .nav-sait {
+        flex-direction: column;
     }
 
     .main_head {
@@ -661,7 +665,6 @@ footer p, a {
     }
 
     .block {
-        width: 800px;
         align-items: center;
     }
 
@@ -712,7 +715,7 @@ footer p, a {
 
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .container {
         width: 800px;
     }
@@ -730,9 +733,9 @@ footer p, a {
     }
 
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
-        width: 650px;
+        width: 600px;
     }
 
     nav {
@@ -745,16 +748,31 @@ footer p, a {
         padding: 70px 0;
     }
 
-    .main_head {
-        width: 650px;
-    }
+    /*.main_head {*/
+    /*    width: 650px;*/
+    /*}*/
 
     .nav, .address {
         text-align: center;
     }
 
 }
-@media (max-width: 480px) {
+
+@media screen and (max-width: 700px){
+    .container {
+        width: 450px;
+    }
+
+    nav {
+        width: 450px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .container {
         width: 400px;
     }
@@ -764,8 +782,7 @@ footer p, a {
     }
 
     .main_head, .main_head h1 {
-        width: 400px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .application {
@@ -810,7 +827,7 @@ footer p, a {
     }
 
 }
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .container {
         width: 290px;
     }
@@ -825,6 +842,7 @@ footer p, a {
     /*}*/
 
     .block {
+        align-items: flex-start;
         width: 290px;
     }
 

@@ -65,7 +65,7 @@ nav {
 .requisites .num, .requisites .em, .requisites .map, .requisites .con {
     display: flex;
     gap: 15px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .num img {

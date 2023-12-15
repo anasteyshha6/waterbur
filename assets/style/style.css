@@ -606,9 +606,10 @@ footer p, a {
         width: 1400px;
     }
 
-    /*.main_head {*/
-    /*    padding-right: 100px;*/
-    /*}*/
+    nav .requisites {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .application {
         width: 435px;

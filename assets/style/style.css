@@ -8,6 +8,10 @@
     outline: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0 auto;
 }
@@ -47,6 +51,10 @@ nav {
     align-items: center;
 }
 
+.logo img {
+    width: 170px;
+}
+
 .requisites, .requisites a {
     display: flex;
     align-items: flex-start;
@@ -58,7 +66,7 @@ nav {
 }
 
 .requisites a:hover {
-    color: white;
+    color: rgba(1, 88, 139, 0.6);
     transition: 0.3s;
 }
 
@@ -68,12 +76,7 @@ nav {
     align-items: flex-start;
 }
 
-.num img {
-    width: 20px;
-    height: 21px;
-}
-
-.em img {
+.requisites img {
     width: 25px;
     height: 21px;
 }
@@ -152,7 +155,7 @@ nav {
 .main_head h1 {
     font-family: 'Gol', sans-serif;
     color: #01588B;
-    font-size: clamp(1.5rem, 1.2rem + 1.5vw, 3rem);
+    font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
     font-weight: 700;
 }
 
@@ -230,7 +233,7 @@ input {
 }
 
 .str:hover {
-    background-color: #d2e7f6;
+    background-color: rgba(1, 88, 139, 0.6);
     color: black;
     transition: 0.3s;
 }
@@ -298,7 +301,7 @@ input {
 
 .head-opis h1 {
     font-family: 'Gol', sans-serif;
-    font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
+    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
     font-weight: 700;
     color: #01588B;
 
@@ -512,10 +515,10 @@ input {
 }
 
 .block {
-    /*width: 50%;*/
+    width: 1400px;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -535,7 +538,7 @@ input {
 .contacts .requisites p, .contacts .requisites a {
     font-family: 'Gol', sans-serif;
     color: #01588B;
-    font-size: clamp(1rem, 0.92rem + 0.4vw, 1.4rem);
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -579,7 +582,7 @@ footer p, a {
 }
 
 .navigation a:hover {
-    color: white;
+    color: rgba(1, 88, 139, 0.6);
     transition: 0.3s;
 }
 
@@ -807,14 +810,6 @@ footer p, a {
         width: 100%;
     }
 
-    /*.slider {*/
-    /*    height: 200px;*/
-    /*}*/
-
-    .contacts .requisites {
-        width: 40%;
-    }
-
     .navigation {
         flex-direction: column;
         gap: 20px;
@@ -841,11 +836,6 @@ footer p, a {
     nav {
         width: 300px;
     }
-
-    /*.main_head, .main_head h1 {*/
-    /*    width: 290px;*/
-    /*    font-size: 1.5rem;*/
-    /*}*/
 
     .block {
         align-items: flex-start;

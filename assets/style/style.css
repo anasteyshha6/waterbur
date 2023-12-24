@@ -827,6 +827,14 @@ footer p, a {
     .head-opis {
         width: 350px;
     }
+
+    .butt {
+        width: 240px;
+    }
+
+    .head_center {
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -857,10 +865,6 @@ footer p, a {
 
     .photo img {
         width: 100%;
-    }
-
-    .butt {
-        width: 250px;
     }
 
 }

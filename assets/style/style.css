@@ -807,7 +807,7 @@ footer p, a {
 
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .container {
         width: 350px;
     }

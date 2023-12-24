@@ -157,6 +157,7 @@ nav {
     color: #01588B;
     font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
     font-weight: 700;
+    overflow-x: hidden;
 }
 
 .main_head h2 {

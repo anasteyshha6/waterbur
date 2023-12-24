@@ -73,7 +73,7 @@ nav {
 .requisites .num, .requisites .em, .requisites .map, .requisites .con {
     display: flex;
     gap: 15px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .requisites img {
@@ -741,6 +741,7 @@ footer p, a {
     /*}*/
 
     .nav, .address {
+        width: 140px;
         text-align: center;
     }
 
@@ -756,7 +757,9 @@ footer p, a {
     }
 
     .navigation {
+        align-items: center;
         flex-direction: column;
+        gap: 20px;
     }
 }
 

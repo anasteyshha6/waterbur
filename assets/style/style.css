@@ -806,13 +806,36 @@ footer p, a {
     }
 
 }
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 350px;
+    }
+
+    nav {
+        width: 350px;
+    }
+
+    .application {
+        width: 350px;
+    }
+
+    .str {
+        width: 290px;
+    }
+
+    .head-opis {
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .container {
         width: 290px;
     }
 
     nav {
-        width: 300px;
+        width: 290px;
     }
 
     .block {
@@ -839,9 +862,5 @@ footer p, a {
     .butt {
         width: 250px;
     }
-
-    /*.slider {*/
-    /*    height: 190px;*/
-    /*}*/
 
 }

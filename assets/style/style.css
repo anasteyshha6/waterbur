@@ -155,14 +155,14 @@ nav {
 .main_head h1 {
     font-family: 'Gol', sans-serif;
     color: #01588B;
-    font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
+    font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
     font-weight: 700;
 }
 
 .main_head h2 {
     font-family: 'Gol', sans-serif;
     color: #000000;
-    font-size: clamp(1.5rem, 1.48rem + 0.1vw, 1.6rem);
+    font-size: clamp(1.3rem, 1.24rem + 0.3vw, 1.6rem);
     font-weight: 700;
 }
 
@@ -495,7 +495,6 @@ input {
 }
 
 .block {
-    width: 1400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -767,11 +766,7 @@ footer p, a {
     }
 
     nav {
-        width: 450px;
-    }
-
-    .main_head, .main_head h1 {
-        font-size: 1.5rem;
+        width: 400px;
     }
 
     .application {

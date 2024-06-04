@@ -233,6 +233,12 @@ input {
     transition: 0.3s;
 }
 
+.str::placeholder {
+    text-align: left;
+    font-size: 14px;
+    color: white;
+}
+
 .str:hover {
     background-color: rgba(1, 88, 139, 0.6);
     color: black;
@@ -247,8 +253,8 @@ input {
 }
 
 .butt {
-    width: 206px;
-    height: 60px;
+    /* width: 206px;
+    height: 60px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,9 +326,9 @@ input {
     color: #01588B;
 }
 
-.about_us .butt {
+/* .about_us .butt {
     width: 304px;
-}
+} */
 
 .about_us a {
     font-family: 'Ral', sans-serif;
@@ -390,7 +396,7 @@ input {
     font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
 }
 
-.step p {
+p {
     font-size: clamp(1rem, 0.975rem + 0.13vw, 1.125rem);
     font-family: 'Ral', sans-serif;
     font-weight: 400;
@@ -455,34 +461,79 @@ input {
 .slider .next {
     right: 10px;
 }
-/*question*/
+/*all_services*/
 
-.question {
+.all_services {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: #01588B;
     margin-bottom: 100px;
-
+    padding: 50px 0;
 }
 
-/*.wave {*/
-/*    width: 100%;*/
-/*}*/
+.all_services .butt {
+    margin-bottom: 0;
+}
 
-.question h1 {
+.all_services h1 {
     color: white;
     font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
-.question .butt {
-    padding: 24px 60px;
+.all_services h3 {
+    font-family: 'Gol', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    padding-bottom: 30px;
 }
 
-.question a {
+.all_services a {
     color: white;
     font-size: clamp(1rem, 0.92rem + 0.4vw, 1.4rem);
+}
+
+.all_services .requisites {
+    padding-bottom: 50px;
+}
+
+.all_services select, .all_services input {
+    width: 300px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 15px;
+    font-family: 'Ral', sans-serif;
+    color: black;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.cart_service {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.cart_service {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.cart_service h3 {
+    color: black;
+    padding: 0;
+}
+
+.cart_service p {
+    color: #777777;
 }
 
 /*contacts*/
@@ -498,7 +549,7 @@ input {
 .block {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -681,7 +732,7 @@ footer p, a {
         width: 900px;
     }
 
-    .step p {
+    p {
         width: 100%;
     }
 
@@ -689,7 +740,7 @@ footer p, a {
         display: none;
     }
 
-    .question {
+    .all_services {
         justify-content: center;
         padding: 60px 0;
     }
@@ -827,10 +878,6 @@ footer p, a {
 
     .head-opis {
         width: 350px;
-    }
-
-    .butt {
-        width: 240px;
     }
 
     .head_center {
